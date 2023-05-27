@@ -1,5 +1,6 @@
 .vim
 .DS_Store
+.out
 
 contracts/.placeholder
 test/.placeholder
