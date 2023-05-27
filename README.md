@@ -1,5 +1,8 @@
-Run on server guide
+Install:
+- Install truffle & ganache
 - npm install
-- nohup ganache --chain.chaninId 1336 -i 5777  > ganache.out &
-- truffle deploy --network develop
+
+Run:
+- (Optional) review truffle-config.js
+- ./run.sh <Config-Network-Name> <Desired-Chain-Id>
 

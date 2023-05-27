@@ -1,0 +1,79 @@
+
+Compiling your contracts...
+===========================
+> Compiling ./contracts/Chainlink.sol
+> Compiling ./contracts/Shiba.sol
+> Compiling ./contracts/USDT.sol
+> Compiling @openzeppelin/contracts/token/ERC20/ERC20.sol
+> Compiling @openzeppelin/contracts/token/ERC20/IERC20.sol
+> Compiling @openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol
+> Compiling @openzeppelin/contracts/utils/Context.sol
+> Artifacts written to /Users/mvp/Career/Development/Xtremly/Smart-Contract/build/contracts
+> Compiled successfully using:
+   - solc: 0.8.19+commit.7dd6d404.Emscripten.clang
+
+
+Starting migrations...
+======================
+> Network name:    'local'
+> Network id:      5777
+> Block gas limit: 30000000 (0x1c9c380)
+
+
+1_initial_migration.js
+======================
+
+   Replacing 'USDT'
+   ----------------
+   > transaction hash:    0x2bbfa779b848a854b0f021b76c59c420935309befd738db75f73b77622ffc67c
+   > Blocks: 0            Seconds: 0
+   > contract address:    0xcCdB046D6876188a41a78ac27df3Cc940A93eAd0
+   > block number:        1
+   > block timestamp:     1685158712
+   > account:             0x525A8442F4dEE55830457b37c75E49eD25eC8F2e
+   > balance:             999.99600303475
+   > gas used:            1184286 (0x12121e)
+   > gas price:           3.375 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00399696525 ETH
+
+
+   Replacing 'Shiba'
+   -----------------
+   > transaction hash:    0x228c16f2eb454d42a3ca38564bc2f1f03cf572a254f13466fd10624d4980ea83
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x6FC5608F8b79aD8f4c339A010bBE03FD87135788
+   > block number:        2
+   > block timestamp:     1685158712
+   > account:             0x525A8442F4dEE55830457b37c75E49eD25eC8F2e
+   > balance:             999.992125570431049306
+   > gas used:            1184226 (0x1211e2)
+   > gas price:           3.274260419 gwei
+   > value sent:          0 ETH
+   > total cost:          0.003877464318950694 ETH
+
+
+   Replacing 'Chainlink'
+   ---------------------
+   > transaction hash:    0x1862e028022413ab41fdc4a31c39e99ec655f62c1cb1b997219c28da8d16f633
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x0fd312aD1B69875DE4a219f0735f4896dcc0Ee49
+   > block number:        3
+   > block timestamp:     1685158712
+   > account:             0x525A8442F4dEE55830457b37c75E49eD25eC8F2e
+   > balance:             999.988353517173646876
+   > gas used:            1184274 (0x121212)
+   > gas price:           3.185118695 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00377205325740243 ETH
+
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.011646482826353124 ETH
+
+Summary
+=======
+> Total deployments:   3
+> Final cost:          0.011646482826353124 ETH
+
+
